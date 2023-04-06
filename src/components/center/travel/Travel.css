@@ -1,0 +1,98 @@
+.TravelAndHotel{
+    display: flex;
+    gap: 1rem;
+}
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2rem;
+    background-color: var(--lightBlack);
+    border-radius: 30px;
+}
+
+.travel>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.travel>span:nth-child(2){
+    font-size: 15px;
+}
+
+.travel>span:nth-child(3){
+    font-size: 12px;
+    color: var(--gray);
+    margin-bottom:10px ;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: 3rem;
+    position: relative;;
+}
+
+.images>img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.images>img:nth-child(2){
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 50%;
+    z-index: 3;
+}
+
+.images>img:nth-child(1){
+    grid-row: 1;
+    grid-column: 2;
+    padding-left:0;
+    z-index: 4;
+}
+
+.images>img:nth-child(3){
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 100%;
+    z-index: 2;
+}
+
+.images>img:nth-child(4){
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 150%;
+    z-index: 1;
+}
+
+.btnbtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.btnbtn>button{
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.btnbtn>button:nth-child(1){
+    background-color: var(--blue);
+}
+
+.travel>button{
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    margin-left: 8px;
+}

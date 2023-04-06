@@ -1,0 +1,49 @@
+.lefttop{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--lightBlack);
+    border-radius: 30px;
+    padding: 2rem 2rem;
+}
+
+
+
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name>span:nth-child(1){
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name>span:nth-child(2){
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.projectRevenue{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectRevenue>div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.projectRevenue>div>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.projectRevenue>div>span:nth-child(2){
+    font-size: 18px;
+    color: var(--grey);
+}

@@ -1,0 +1,52 @@
+.projectMain{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.projectContainer{
+    min-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--lightBlack);
+    border-radius: 30px;
+    gap: 1rem;
+}
+
+.projectHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectHeader>span:nth-child(1){
+    font-size: 18px;
+}
+
+.projectContainer>span:nth-child(2){
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.projectContainer>span:nth-child(3){
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.projectContainer>span:nth-child(4){
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.projectContainer>p{
+    font-size: 13px;
+    color: var(--gray);
+}
+
+.circular{
+    height: 5rem;
+    width: 5rem;
+}

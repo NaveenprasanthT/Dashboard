@@ -1,0 +1,85 @@
+.transactionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-color: var(--lightBlack);
+    border-radius: 30px;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personalDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.personalDetail>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.personalDetail>span:nth-child(1){
+    color: var(--gray);
+}
+
+.personalDetail>span:nth-child(3){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.personalDetail>span:nth-child(4){
+    font-size: 12px;
+    color: var(--gray);
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile>img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.profile>span{
+    color: var(--gray);
+    align-self: flex-end;
+}
+
+.imageDetail{
+    padding: 1rem 6rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.imageDetail>img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.imageDetail>span{
+    background-color: black;
+    padding: .9rem;
+    border-radius: 50%;
+}
+
+.transactionContainer>button{
+    width: 6rem;
+    height: 2.5rem;
+    align-self: flex-end;
+    margin-right: 5rem;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: var(--orange);
+}

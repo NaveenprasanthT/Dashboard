@@ -1,0 +1,30 @@
+.proContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--blue);
+    padding: 1rem 3rem;
+    border-radius: 30px;
+}
+
+.proContainer>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.proContainer>span:nth-child(2){
+    color: var(--gray);
+}
+
+.proContainer>button{
+    margin-left: 4rem;
+    width: 6rem;
+    height: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
